@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83BD6772B9FC48600BD09DA /* PrometheusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6762B9FC48600BD09DA /* PrometheusApp.swift */; };
+		D83BD6792B9FC48600BD09DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6782B9FC48600BD09DA /* ContentView.swift */; };
+		D83BD67B2B9FC48A00BD09DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83BD67A2B9FC48A00BD09DA /* Assets.xcassets */; };
+		D83BD67E2B9FC48A00BD09DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83BD67D2B9FC48A00BD09DA /* Preview Assets.xcassets */; };
+		D83BD6882B9FC48B00BD09DA /* PrometheusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6872B9FC48B00BD09DA /* PrometheusTests.swift */; };
+		D83BD6922B9FC48B00BD09DA /* PrometheusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6912B9FC48B00BD09DA /* PrometheusUITests.swift */; };
+		D83BD6942B9FC48B00BD09DA /* PrometheusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6932B9FC48B00BD09DA /* PrometheusUITestsLaunchTests.swift */; };
+		D83BD6A12B9FC68500BD09DA /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6A02B9FC68500BD09DA /* SignUpView.swift */; };
+		D83BD6A32B9FC69500BD09DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83BD6A22B9FC69500BD09DA /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D83BD6842B9FC48B00BD09DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83BD66B2B9FC48600BD09DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83BD6722B9FC48600BD09DA;
+			remoteInfo = Prometheus;
+		};
+		D83BD68E2B9FC48B00BD09DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D83BD66B2B9FC48600BD09DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83BD6722B9FC48600BD09DA;
+			remoteInfo = Prometheus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D83BD6732B9FC48600BD09DA /* Prometheus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prometheus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83BD6762B9FC48600BD09DA /* PrometheusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusApp.swift; sourceTree = "<group>"; };
+		D83BD6782B9FC48600BD09DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D83BD67A2B9FC48A00BD09DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83BD67D2B9FC48A00BD09DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D83BD6832B9FC48B00BD09DA /* PrometheusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrometheusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83BD6872B9FC48B00BD09DA /* PrometheusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusTests.swift; sourceTree = "<group>"; };
+		D83BD68D2B9FC48B00BD09DA /* PrometheusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrometheusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83BD6912B9FC48B00BD09DA /* PrometheusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusUITests.swift; sourceTree = "<group>"; };
+		D83BD6932B9FC48B00BD09DA /* PrometheusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D83BD6A02B9FC68500BD09DA /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D83BD6A22B9FC69500BD09DA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83BD6702B9FC48600BD09DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD6802B9FC48B00BD09DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD68A2B9FC48B00BD09DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83BD66A2B9FC48600BD09DA = {
+			isa = PBXGroup;
+			children = (
+				D83BD6752B9FC48600BD09DA /* Prometheus */,
+				D83BD6862B9FC48B00BD09DA /* PrometheusTests */,
+				D83BD6902B9FC48B00BD09DA /* PrometheusUITests */,
+				D83BD6742B9FC48600BD09DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83BD6742B9FC48600BD09DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83BD6732B9FC48600BD09DA /* Prometheus.app */,
+				D83BD6832B9FC48B00BD09DA /* PrometheusTests.xctest */,
+				D83BD68D2B9FC48B00BD09DA /* PrometheusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83BD6752B9FC48600BD09DA /* Prometheus */ = {
+			isa = PBXGroup;
+			children = (
+				D83BD6762B9FC48600BD09DA /* PrometheusApp.swift */,
+				D83BD6782B9FC48600BD09DA /* ContentView.swift */,
+				D83BD6A22B9FC69500BD09DA /* LoginView.swift */,
+				D83BD6A02B9FC68500BD09DA /* SignUpView.swift */,
+				D83BD67A2B9FC48A00BD09DA /* Assets.xcassets */,
+				D83BD67C2B9FC48A00BD09DA /* Preview Content */,
+			);
+			path = Prometheus;
+			sourceTree = "<group>";
+		};
+		D83BD67C2B9FC48A00BD09DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D83BD67D2B9FC48A00BD09DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D83BD6862B9FC48B00BD09DA /* PrometheusTests */ = {
+			isa = PBXGroup;
+			children = (
+				D83BD6872B9FC48B00BD09DA /* PrometheusTests.swift */,
+			);
+			path = PrometheusTests;
+			sourceTree = "<group>";
+		};
+		D83BD6902B9FC48B00BD09DA /* PrometheusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D83BD6912B9FC48B00BD09DA /* PrometheusUITests.swift */,
+				D83BD6932B9FC48B00BD09DA /* PrometheusUITestsLaunchTests.swift */,
+			);
+			path = PrometheusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83BD6722B9FC48600BD09DA /* Prometheus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83BD6972B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "Prometheus" */;
+			buildPhases = (
+				D83BD66F2B9FC48600BD09DA /* Sources */,
+				D83BD6702B9FC48600BD09DA /* Frameworks */,
+				D83BD6712B9FC48600BD09DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prometheus;
+			productName = Prometheus;
+			productReference = D83BD6732B9FC48600BD09DA /* Prometheus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D83BD6822B9FC48B00BD09DA /* PrometheusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83BD69A2B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "PrometheusTests" */;
+			buildPhases = (
+				D83BD67F2B9FC48B00BD09DA /* Sources */,
+				D83BD6802B9FC48B00BD09DA /* Frameworks */,
+				D83BD6812B9FC48B00BD09DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83BD6852B9FC48B00BD09DA /* PBXTargetDependency */,
+			);
+			name = PrometheusTests;
+			productName = PrometheusTests;
+			productReference = D83BD6832B9FC48B00BD09DA /* PrometheusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D83BD68C2B9FC48B00BD09DA /* PrometheusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83BD69D2B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "PrometheusUITests" */;
+			buildPhases = (
+				D83BD6892B9FC48B00BD09DA /* Sources */,
+				D83BD68A2B9FC48B00BD09DA /* Frameworks */,
+				D83BD68B2B9FC48B00BD09DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83BD68F2B9FC48B00BD09DA /* PBXTargetDependency */,
+			);
+			name = PrometheusUITests;
+			productName = PrometheusUITests;
+			productReference = D83BD68D2B9FC48B00BD09DA /* PrometheusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83BD66B2B9FC48600BD09DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D83BD6722B9FC48600BD09DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D83BD6822B9FC48B00BD09DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D83BD6722B9FC48600BD09DA;
+					};
+					D83BD68C2B9FC48B00BD09DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D83BD6722B9FC48600BD09DA;
+					};
+				};
+			};
+			buildConfigurationList = D83BD66E2B9FC48600BD09DA /* Build configuration list for PBXProject "Prometheus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83BD66A2B9FC48600BD09DA;
+			productRefGroup = D83BD6742B9FC48600BD09DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83BD6722B9FC48600BD09DA /* Prometheus */,
+				D83BD6822B9FC48B00BD09DA /* PrometheusTests */,
+				D83BD68C2B9FC48B00BD09DA /* PrometheusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83BD6712B9FC48600BD09DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83BD67E2B9FC48A00BD09DA /* Preview Assets.xcassets in Resources */,
+				D83BD67B2B9FC48A00BD09DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD6812B9FC48B00BD09DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD68B2B9FC48B00BD09DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83BD66F2B9FC48600BD09DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83BD6792B9FC48600BD09DA /* ContentView.swift in Sources */,
+				D83BD6A12B9FC68500BD09DA /* SignUpView.swift in Sources */,
+				D83BD6A32B9FC69500BD09DA /* LoginView.swift in Sources */,
+				D83BD6772B9FC48600BD09DA /* PrometheusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD67F2B9FC48B00BD09DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83BD6882B9FC48B00BD09DA /* PrometheusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83BD6892B9FC48B00BD09DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83BD6942B9FC48B00BD09DA /* PrometheusUITestsLaunchTests.swift in Sources */,
+				D83BD6922B9FC48B00BD09DA /* PrometheusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D83BD6852B9FC48B00BD09DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83BD6722B9FC48600BD09DA /* Prometheus */;
+			targetProxy = D83BD6842B9FC48B00BD09DA /* PBXContainerItemProxy */;
+		};
+		D83BD68F2B9FC48B00BD09DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D83BD6722B9FC48600BD09DA /* Prometheus */;
+			targetProxy = D83BD68E2B9FC48B00BD09DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D83BD6952B9FC48B00BD09DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D83BD6962B9FC48B00BD09DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83BD6982B9FC48B00BD09DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prometheus/Preview Content\"";
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.Prometheus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83BD6992B9FC48B00BD09DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prometheus/Preview Content\"";
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.Prometheus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D83BD69B2B9FC48B00BD09DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.PrometheusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prometheus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prometheus";
+			};
+			name = Debug;
+		};
+		D83BD69C2B9FC48B00BD09DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.PrometheusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prometheus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prometheus";
+			};
+			name = Release;
+		};
+		D83BD69E2B9FC48B00BD09DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.PrometheusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prometheus;
+			};
+			name = Debug;
+		};
+		D83BD69F2B9FC48B00BD09DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWNUX6LF3Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelMartinez.PrometheusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prometheus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83BD66E2B9FC48600BD09DA /* Build configuration list for PBXProject "Prometheus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83BD6952B9FC48B00BD09DA /* Debug */,
+				D83BD6962B9FC48B00BD09DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83BD6972B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "Prometheus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83BD6982B9FC48B00BD09DA /* Debug */,
+				D83BD6992B9FC48B00BD09DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83BD69A2B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "PrometheusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83BD69B2B9FC48B00BD09DA /* Debug */,
+				D83BD69C2B9FC48B00BD09DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83BD69D2B9FC48B00BD09DA /* Build configuration list for PBXNativeTarget "PrometheusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83BD69E2B9FC48B00BD09DA /* Debug */,
+				D83BD69F2B9FC48B00BD09DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D83BD66B2B9FC48600BD09DA /* Project object */;
+}
